@@ -81,7 +81,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 50%;
+    height: 40%;
 }
 
 
@@ -213,7 +213,7 @@ body {
 .grid_item6 {
     padding: 15px 25px;
     min-height: 250px;
-    background-color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 100%)
 }
 
 
