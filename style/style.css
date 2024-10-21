@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+
+
+* {
+    padding: unset;
+    margin: unset;
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed';
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    padding: 30px 10px;
+    min-width:  375px;
+}
+
+.grid_container {
+    display: grid;
+    gap: 30px ;
+    grid-auto-columns: minmax( 300px,450px);
+}
+
+.gold {
+    color: hsl(39, 100%, 71%);
+}
+
+
+.grid_container > div {
+    border-radius: 10px;
+    user-select: none;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+
+
+
+/* item1  */
+
+.grid_item1 {
+    background-color: hsl(256, 67%, 59%);
+    min-height: 350px;
+    text-align: center;
+    color: #fff;
+}
+
+.grid_item1 h1 {
+    padding: 30px 15px;
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.grid_item1 img {
+    min-width: 60%;
+    max-width: 200px;
+}
+
+.grid_item1 p {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+
+
+/* item 2 */
+
+
+.grid_item2 {
+    background-color: #fdfdfd;
+    min-height: 200px;
+    color: #000;
+    padding: 15px;
+}
+
+
+.grid_item2 .top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+}
+
+
+.grid_item2 .top .left, 
+.grid_item2 .top .right {
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    max-width: 45%;
+    min-width: 150px;
+    justify-content: space-around;
+    padding: 10px 0px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+
+.grid_item2 .top .left i, 
+.grid_item2 .top .right i {
+    color:  hsl(256, 67%, 59%);
+    font-size: 24px;
+    background-color: hsl(39, 100%, 71%);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.grid_item2 .top .left .text p:nth-child(1), 
+.grid_item2 .top .right .text p:nth-child(1) {
+    font-weight: 500;
+}
+
+.grid_item2 .top .left .text p:nth-child(2), 
+.grid_item2 .top .right .text p:nth-child(2) {
+    color: #808080;
+    font-size: 14px;
+}
+
+
+.grid_item2 .bottom {
+    height: 50%;
+}
+
+.grid_item2 .bottom h2 {
+    font-weight: 450;
+    font-size: 28px;
+}
+
+
+
+/* item 3 */
+
+.grid_item3 {
+    background-color: hsl(39, 100%, 71%);
+    color: #000;
+    min-height: 280px;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.grid_item3 img {
+    position: absolute;
+    max-width: 55%;
+    bottom: 0px;
+}
+
+.grid_item3 h2 {
+    font-weight: 450;
+    font-size: 28px;
+}
+
+
+/* item 4  */
+
+
+.grid_item4 {
+    background-color: hsl(254, 88%, 90%);
+    text-align: center;
+    min-height: 500px;
+    padding: 15px 20px;
+}
+
+.grid_item4 h2 {
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+
+.grid_item4 img {
+    width: 100%;
+    height: 60%;
+    margin-bottom: 20px;
+}
+
+.grid_item4 p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+/* item 5 */
+
+.grid_item5 {
+    background-color: hsl(256, 67%, 59%);
+    text-align: center;
+    min-height: 400px;
+    padding: 10px 25px;
+    color: #fff;
+}
+
+.grid_item5 h2 {
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.grid_item5 img {
+    max-width: 80%;
+    margin-bottom: 40px;
+}
+
+
+
+
+/* item6  */
+
+.grid_item6 {
+    padding: 15px 25px;
+    min-height: 250px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+
+.grid_item6 h2 {
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 25px;
+    font-family: sans-serif;
+}
+
+.grid_item6 p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 25px;
+    font-family: sans-serif;
+}
+
+.grid_item6 img {
+    max-width: 60%;
+}
+
+
+/* item 7 */
+
+.grid_item7 {
+    padding: 30px 25px;
+    min-height: 280px;
+    background-color: hsl(31, 66%, 93%);
+}
+
+.grid_item7 h2 {
+    font-weight: 450;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.grid_item7 img {
+    max-width: 60%;
+}
+
+
+.purple {
+    color: rgb(149, 85, 209);
+    font-style: italic;
+}
+
+
+/* itme 8  */
+
+.grid_item8 {
+    padding: 30px 25px;
+    min-height: 350px;
+    background-color: hsl(39, 100%, 71%);
+}
+
+.grid_item8 h2 {
+    font-weight: 450;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.grid_item8 img {
+    max-width: 70%;
+}
