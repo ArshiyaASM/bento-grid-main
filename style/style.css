@@ -21,7 +21,7 @@ body {
 .grid_container {
     display: grid;
     gap: 30px ;
-    grid-auto-columns: minmax( 300px,450px);
+    grid-template-columns: repeat(1, minmax(300px, 450px));
 }
 
 .gold {
@@ -55,7 +55,7 @@ body {
 }
 
 .grid_item1 img {
-    min-width: 60%;
+    min-width: 40%;
     max-width: 200px;
 }
 
@@ -90,11 +90,14 @@ body {
     display: flex;
     align-items: center;
     border-radius: 30px;
-    max-width: 45%;
     min-width: 150px;
     justify-content: space-around;
     padding: 10px 0px;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.grid_item2 .top .left {
+    margin-right: 10px;
 }
 
 
