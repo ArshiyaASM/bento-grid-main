@@ -96,12 +96,12 @@
     }
 
     .grid_item4 p {
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 400;
     }
 
     .grid_item4 h2 {
-        font-weight: 400;
+        font-weight: 450;
         font-size: 20px;
         margin-bottom: 25px;
     }
@@ -122,6 +122,13 @@
         height: 70%;
         margin-right: 10px;
     }
+
+    .grid_item5 h2 {
+        font-weight: 400;
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+    
 
     /* item6  */
 
@@ -152,7 +159,7 @@
 
     .grid_item6 h2 {
         font-weight: 500;
-        font-size: 40px;
+        font-size: 35px;
         margin-bottom: 25px;
         font-family: sans-serif;
     }
@@ -164,7 +171,7 @@
 
     .grid_item7 h2 {
         font-weight: 450;
-        font-size: 20px;
+        font-size: 30px;
         margin-bottom: 30px;
     }
 
@@ -188,23 +195,6 @@
         max-height: 70%; 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -251,7 +241,7 @@
     .grid_item1 h1 {
         padding: 30px 15px;
         font-weight: 400;
-        font-size: 40px;
+        font-size: 50px;
         margin-bottom: 20px;
     }
 
@@ -278,11 +268,23 @@
         box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
     }
 
+    .grid_item2 .bottom h2 {
+        font-weight: 450;
+        font-size: 28px;
+    }
+    
+
 
 
     .grid_item3 {
         grid-row: 4/7;
         grid-column: 3/4;
+    }
+
+
+    .grid_item3 h2 {
+        font-weight: 450;
+        font-size: 30px;
     }
 
 
@@ -298,6 +300,7 @@
         position: relative;
         left: 15%;
         height: 50%;
+        margin: 30px;
     }
 
     .grid_item4 p {
