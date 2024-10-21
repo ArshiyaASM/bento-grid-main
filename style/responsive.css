@@ -10,7 +10,7 @@
     .grid_container {
         display: grid;
         gap: 20px;
-        max-width: 1400px;
+        max-width: 1200px;
         max-height: 85%;
         grid-template-columns: repeat(4, 1fr);
         grid-auto-rows: 1fr;
@@ -229,7 +229,7 @@
     .grid_container {
         display: grid;
         gap: 20px;
-        max-width: 1400px;
+        max-width: 1200px;
         max-height: 85%;
         grid-template-columns: repeat(4, 1fr);
         grid-auto-rows: 1fr;
